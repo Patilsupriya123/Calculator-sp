@@ -1,0 +1,105 @@
+
+#calculator {
+
+    border: 1px solid #100f0f;
+    border-radius: 5px;
+    background-color:rgba(120, 115, 107, 0.91);
+    width: 200px;
+    padding: 30px;
+    margin: 20px;
+    
+    }
+
+    #display {
+    height: 50px;
+    margin: 10px;
+    width: 85%;
+    border:2px solid cornsilk;
+    border-radius:15px;
+    font-size: 20px;
+    background-color: rgb(247, 241, 235,0.9);
+    
+    
+    }
+    
+    -button-container {
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    flex-wrap: wrap;
+
+    
+
+    }
+    
+    .button{
+    width: 50px; 
+    height: 50px;
+    margin:6px;
+
+    padding: 10px 20px;
+    background-color: rgba(172, 99, 10, 0.5);
+    color: rgb(21, 3, 3);
+    border: 3px solid rgb(249, 220, 181) ;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    
+    }
+    .button:hover{
+
+        width: 45px;
+        height: 45px;
+        margin:6px;
+        background-color:rgb(238, 64, 64);
+    
+        }
+
+    .button1{
+        width: 50px;  
+        height: 50px;
+        margin:6px;
+        padding: 10px 20px;
+        position: relative;
+        left: 35px;
+
+        background-color: rgba(172, 99, 10, 0.5);
+        color: rgb(21, 3, 3);
+        border: 3px solid  rgb(249, 220, 181) ;
+        border-radius: 10px;
+        cursor: pointer;
+        
+        }
+
+        .button1:hover{
+            width: 45px;
+            height: 45px;       
+            margin:6px;
+            background-color: rgb(238, 64, 64);
+
+        }
+
+        .button2{
+            width: 50px;
+            height: 50px;
+            margin:6px;
+            position: relative;
+            left: 35px;
+            padding: 10px 20px;
+            background-color: rgba(172, 99, 10, 0.5);
+            color: rgb(21, 3, 3);
+            border: 3px solid rgb(249, 220, 181) ;
+            border-radius: 10px;
+            cursor: pointer;
+            
+            }
+            .button2:hover{
+                width: 45px;
+                height: 45px;
+                margin:6px;
+                background-color: rgb(238, 64, 64);
+    
+            }
+    
